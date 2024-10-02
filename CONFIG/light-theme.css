@@ -1,0 +1,97 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #83d9c7, #f3f3f3, #f1a8b4);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1a8b4;
+    color: white;
+    border-bottom: 3px solid #d68794;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.back-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d68794;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #f1a8b4;
+}
+
+.settings-container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-container h2 {
+    color: #83d9c7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+select, input[type="checkbox"], button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #83d9c7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #70c7b5;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.actions button {
+    margin-bottom: 10px;
+    background-color: #f28080; /* Cor base para ações críticas */
+}
+
+.actions button:hover {
+    background-color: #d26767; /* Cor ao passar o mouse para ações críticas */
+}
